@@ -1,0 +1,163 @@
+@font-face {
+    font-family: LuckiestGuy-Regular;
+    src: url(font/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+    font-family: PermanentMarker-Regular;
+    src: url(font/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family: DynaPuff-VariableFont_wdth\,wght;
+    src: url(font/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: RockSalt-Regular;
+    src: url(font/RockSalt-Regular.ttf);
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    20% { transform: translateY(-20px); }
+    40% { transform: translateY(0); }
+    60% { transform: translateY(-15px); }
+    80% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+
+.Temfont{
+    padding: 10px;
+    margin-left: 200px;
+    text-shadow: 0 0 3px rgb(8, 0, 255), 
+    0 0 5px aqua, 0 0 5px aqua;
+}
+
+.Temfont a{
+    font-family: PermanentMarker-Regular;
+    font-size: 55px;
+    color: rgb(115, 210, 216);
+}
+
+#navbarNav{
+    justify-content: right;
+    margin-right: 30px;
+
+}
+
+#navbarNav ul li{
+    font-family: LuckiestGuy-Regular;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+#navbarNav ul li a{
+    font-size: 24px;
+    color: red
+}
+
+#header{
+    border-bottom: 2px solid transparent;
+    background: linear-gradient(to right, rgba(219, 209, 209, 0.5), rgba(74, 135, 175, 0.5), rgba(13, 13, 94, 0.5));
+}
+
+.btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 200;
+    padding: 0.5em 1em;
+    background: linear-gradient(to right, #460202, #460275);
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: translateX(-10px);
+    background: linear-gradient(to right, #0000FF, #460275);
+}
+
+main{
+    background-color: rgb(199, 197, 197);
+}
+
+main .container {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container{
+    align-items: center;
+    padding: 50px;
+    align-items: left;
+    text-align: left;
+}
+
+.img2{
+    margin-left: 100px;
+}
+
+
+.jeg_post_tags a {
+    margin-right: 20px;
+    font-size: 20px;
+}
+#welcome{
+    text-align: center;
+    font-size: 80px;
+    background: linear-gradient(90deg, #313131, #3138f7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DynaPuff-VariableFont_wdth\,wght;
+    padding: 10px;
+    animation: bounce 2s infinite;
+}
+
+p{
+    font-size: 22px;
+}
+
+main .container{
+    margin-left: 150px;
+}
+
+.avatar-80{
+    border-radius: 30px;
+}
+
+.container h2 {
+    margin-top: -40px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: DynaPuff-VariableFont_wdth\,wght;
+    position: relative;
+    display: inline-block
+  }
+  
+  .container h2:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: #3138f7;
+    position: relative;
+    top: 5px; 
+  }
+
+.container h3{
+    font-size: 50px;
+}
+
+.custom1{
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 50px
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 9);
+}
+
